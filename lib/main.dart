@@ -17,7 +17,7 @@ void main() {
                 width: 2.0,
                 style: BorderStyle.solid,
               ),
-               borderRadius: BorderRadius.all(Radius.circular(20.0)),
+              // borderRadius: BorderRadius.all(Radius.circular(20.0)),
                   boxShadow: [
                     BoxShadow(
                   color: Colors.red,
@@ -34,7 +34,7 @@ void main() {
                     Colors.yellow,
                     Colors.blue,
                   ]),
-                //shape: BoxShape.values,
+                shape: BoxShape.circle,
             ),
               child: Text("Hey Rohan, how's your day",
                 style: TextStyle(fontSize: 20, color: Colors.white),
